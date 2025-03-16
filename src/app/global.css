@@ -51,6 +51,11 @@
   background: linear-gradient(to right, #0066ff, #ff0000);
 }
 
+.transparent-line {
+  height: 15px;
+  opacity: 0;
+}
+
 .vh-8 { height: 8vh !important; }
 
 .vw-8 { width: 8vw !important; }
