@@ -1,8 +1,8 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './global.css';
+import 'aos/dist/aos.css';
 import Footer from "@/components/layout/footer";
 import Header from "@/components/layout/header";
-
 
 export const metadata = {
   title: "Create Next App",

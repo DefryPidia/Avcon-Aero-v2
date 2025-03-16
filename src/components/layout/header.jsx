@@ -6,8 +6,15 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Button from "react-bootstrap/Button";
 import Link from "next/link";
+import { useEffect } from 'react';
+import AOS from "aos";
+
 
 const Header = () => {
+  useEffect(() => {
+    AOS.init();
+  }, [])
+
   return (
     <div className="sticky-top">
       <div className="bg-dark text-white py-2 d-flex justify-content-between align-items-center px-4">
