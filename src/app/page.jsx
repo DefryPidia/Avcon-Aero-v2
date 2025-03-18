@@ -75,7 +75,7 @@ export default function Home() {
           </div>
 
           <div className="row g-4 justify-content-center">
-            <div className="col-6 col-md-3">
+            <div className="col-6 col-md-3" data-aos="fade-in">
               <div className="card h-100 border-0 shadow-sm">
                 <div className="card-body d-flex align-items-center justify-content-center p-4" style={{ height: "150px" }}>
                   <img
@@ -86,7 +86,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="col-6 col-md-3">
+            <div className="col-6 col-md-3" data-aos="fade-in">
               <div className="card h-100 border-0 shadow-sm">
                 <div className="card-body d-flex align-items-center justify-content-center p-4" style={{ height: "150px" }}>
                   <img
@@ -97,7 +97,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="col-6 col-md-3">
+            <div className="col-6 col-md-3" data-aos="fade-in">
               <div className="card h-100 border-0 shadow-sm">
                 <div className="card-body d-flex align-items-center justify-content-center p-4" style={{ height: "150px" }}>
                   <img
@@ -108,7 +108,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="col-6 col-md-3">
+            <div className="col-6 col-md-3" data-aos="fade-in">
               <div className="card h-100 border-0 shadow-sm">
                 <div className="card-body d-flex align-items-center justify-content-center p-4" style={{ height: "150px" }}>
                   <img
@@ -119,7 +119,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="col-6 col-md-3">
+            <div className="col-6 col-md-3" data-aos="fade-in">
               <div className="card h-100 border-0 shadow-sm">
                 <div className="card-body d-flex align-items-center justify-content-center p-4" style={{ height: "150px" }}>
                   <img
@@ -130,7 +130,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="col-6 col-md-3">
+            <div className="col-6 col-md-3" data-aos="fade-in">
               <div className="card h-100 border-0 shadow-sm">
                 <div className="card-body d-flex align-items-center justify-content-center p-4" style={{ height: "150px" }}>
                   <img
@@ -141,7 +141,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="col-6 col-md-3">
+            <div className="col-6 col-md-3" data-aos="fade-in">
               <div className="card h-100 border-0 shadow-sm">
                 <div className="card-body d-flex align-items-center justify-content-center p-4" style={{ height: "150px" }}>
                   <img
@@ -152,7 +152,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="col-6 col-md-3">
+            <div className="col-6 col-md-3" data-aos="fade-in">
               <div className="card h-100 border-0 shadow-sm">
                 <div className="card-body d-flex align-items-center justify-content-center p-4" style={{ height: "150px" }}>
                   <img
@@ -163,7 +163,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="col-6 col-md-3">
+            <div className="col-6 col-md-3" data-aos="fade-in">
               <div className="card h-100 border-0 shadow-sm">
                 <div className="card-body d-flex align-items-center justify-content-center p-4" style={{ height: "150px" }}>
                   <img
@@ -174,7 +174,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="col-6 col-md-3">
+            <div className="col-6 col-md-3" data-aos="fade-in">
               <div className="card h-100 border-0 shadow-sm">
                 <div className="card-body d-flex align-items-center justify-content-center p-4" style={{ height: "150px" }}>
                   <img
@@ -243,7 +243,7 @@ export default function Home() {
 
       <div className="container my-5">
         <div className="row justify-content-center">
-          <div className="col-md-4 mb-4 d-flex justify-content-center">
+          <div className="col-md-4 mb-4 d-flex justify-content-center" data-aos="slide-right">
             <div className="card text-center p-5 shadow-sm skill-box">
               <div className="mb-4 text-primary">
                 <i className="fas fa-fan fa-7x mt-2"></i>
@@ -251,7 +251,7 @@ export default function Home() {
               <h4 className="text-primary">Aviation Material <br/> Supply</h4>
             </div>
           </div>
-          <div className="col-md-4 mb-4 d-flex justify-content-center">
+          <div className="col-md-4 mb-4 d-flex justify-content-center" data-aos="slide-right">
             <div className="card text-center p-5 shadow-sm skill-box">
               <div className="mb-4 text-primary">
                 <i className="fas fa-wrench fa-7x mt-2"></i>
@@ -259,7 +259,7 @@ export default function Home() {
               <h4 className="text-primary">Repair & Upgrade</h4>
             </div>
           </div>
-          <div className="col-md-4 mb-4 d-flex justify-content-center">
+          <div className="col-md-4 mb-4 d-flex justify-content-center" data-aos="slide-right">
             <div className="card text-center p-5 shadow-sm skill-box">
               <div className="mb-4 text-primary">
                 <i className="fas fa-plane fa-7x mt-2"></i>
@@ -268,7 +268,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="col-md-4 mb-4 d-flex justify-content-center">
+          <div className="col-md-4 mb-4 d-flex justify-content-center" data-aos="slide-right">
             <div className="card text-center p-5 shadow-sm skill-box">
               <div className="mb-4 text-primary">
                 <i className="fas fa-handshake fa-7x mt-2"></i>
@@ -276,7 +276,7 @@ export default function Home() {
               <h4 className="text-primary">Aviation <br/> Consultancy</h4>
             </div>
           </div>
-          <div className="col-md-4 mb-4 d-flex justify-content-center">
+          <div className="col-md-4 mb-4 d-flex justify-content-center" data-aos="slide-right">
             <div className="card text-center p-5 shadow-sm skill-box">
               <div className="mb-4 text-primary">
                 <i className="fas fa-clock fa-7x mt-2"></i>
@@ -302,7 +302,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="container my-5">
+      <div className="container my-5" data-aos="flip-up">
         <div className="row pt-5">
           <div className="col-md-5 d-flex justify-content-center">
             <img
