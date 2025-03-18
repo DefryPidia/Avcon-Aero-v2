@@ -3,6 +3,7 @@ import './global.css';
 import 'aos/dist/aos.css';
 import Footer from "@/components/layout/footer";
 import Header from "@/components/layout/header";
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 export const metadata = {
   title: "Create Next App",
