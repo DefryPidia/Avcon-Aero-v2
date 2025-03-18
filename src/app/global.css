@@ -1,3 +1,19 @@
+@font-face {
+  font-family: 'Montserrat_Complete';
+  src: url('/fonts/Montserrat_Complete/Fonts/TTF/Montserrat-Variable.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: url('/fonts/calibri-font-family/calibri-regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat_Complete', sans-serif;
+}
+
 .vid-title {
   position: relative;
   width: 100%;
@@ -124,4 +140,21 @@
   color: white;
   font-size: 1.8rem;
   font-weight: bold;
+}
+
+.btn-aero{
+  background: linear-gradient(to right, #0f4e9e, #5ca3fb);
+  border: none;
+}
+
+@media (max-width: 768px) {
+  .vision-card img {
+    position: static;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .vision-card-content {
+    z-index: 2;
+  }
 }
