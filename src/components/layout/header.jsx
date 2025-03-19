@@ -1,18 +1,16 @@
 'use client'
 
-import React from "react";
+import EmailIcon from "@public/icon/email.svg";
+import LinkedinIcon from "@public/icon/linkedin.svg";
+import PhoneIcon from "@public/icon/phone.svg";
+import AOS from "aos";
+import Image from "next/image";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { useEffect } from 'react';
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import Button from "react-bootstrap/Button";
-import Link from "next/link";
-import { useEffect } from 'react';
-import AOS from "aos";
-import EmailIcon from "@public/icon/email.svg";
-import PhoneIcon from "@public/icon/phone.svg";
-import LinkedinIcon from "@public/icon/linkedin.svg";
-import Image from "next/image";
-import { usePathname } from "next/navigation";
 
 const NavMiniBar = () => {
   return <div style={{
@@ -37,21 +35,23 @@ const Header = () => {
 
   return (
     <div className="sticky-top">
-      <div className="aero-bg-blue text-white d-flex justify-content-between align-items-center" style={{ padding: '0 10% 0 10%' }}>
-        <div>
-          <div className="d-inline-flex align-items-center me-4">
-            <Image src={EmailIcon} alt="email" height={20} width={20} className="me-1" />
-            contact@avconaero.com
+      <div className="aero-bg-blue">
+        <div className="container text-white d-flex justify-content-between align-items-center">
+          <div>
+            <div className="d-inline-flex align-items-center me-4">
+              <Image src={EmailIcon} alt="email" height={20} width={20} className="me-1" />
+              contact@avconaero.com
+            </div>
+            <div className="d-inline-flex align-items-center">
+              <Image src={PhoneIcon} alt="phone" height={20} width={20} className="me-1" />
+              +62 818 0740 0663
+            </div>
           </div>
-          <div className="d-inline-flex align-items-center">
-            <Image src={PhoneIcon} alt="phone" height={20} width={20} className="me-1" />
-            +62 818 0740 0663
+          <div>
+            <a href="#">
+              <Image src={LinkedinIcon} alt="linkedin" height={50} width={100} />
+            </a>
           </div>
-        </div>
-        <div>
-          <a href="#">
-            <Image src={LinkedinIcon} alt="linkedin" height={50} width={100} className="me-1" />
-          </a>
         </div>
       </div>
 
@@ -70,7 +70,9 @@ const Header = () => {
               <Nav.Link as={Link} href="/career" className={`fw-medium ${pathName === "/career" ? 'aero-blue' : ''}`}>Career {pathName === "/career" && <NavMiniBar />}</Nav.Link>
               <Nav.Link as={Link} href="/contact" className={`fw-medium ${pathName === "/contact" ? 'aero-blue' : ''}`}>Contact {pathName === "/contact" && <NavMiniBar />}</Nav.Link>
             </Nav>
-            <button className="aero-btn-outline-blue fw-medium ms-3">Request quote</button>
+            <a href="mailto:contact@avconaero.com">
+              <button className="aero-btn-outline-blue fw-medium ms-3">Request quote</button>
+            </a>
           </Navbar.Collapse>
         </Container>
       </Navbar>
