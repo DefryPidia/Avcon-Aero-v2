@@ -73,8 +73,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .company-break-line {
-  height: 3vh;
-  background: linear-gradient(to right, #0066ff, #ff0000);
+  height: 5vh;
+  background: linear-gradient(to right, #DE0031 50%, #1F5FAF 50%);
 }
 
 .transparent-line {
