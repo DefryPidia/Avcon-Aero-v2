@@ -153,6 +153,11 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
 }
 
+.fleet-support{
+  height: 120vh;
+  background: #E8F0F9;
+}
+
 .btn-aero{
   background: linear-gradient(to right, #0f4e9e, #5ca3fb);
   border: none;
@@ -175,5 +180,9 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
     z-index: 3;
     text-align: center;
+  }
+
+  .fleet-support{
+    height: 180vh;
   }
 }

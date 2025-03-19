@@ -66,7 +66,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="position-relative overflow-hidden py-5 home-section" style={{ height: "120vh", background: "#E8F0F9" }} >
+      <div className="position-relative overflow-hidden py-5 home-section fleet-support" >
         <div className="container">
           <div className="mb-5">
             <h2 className="fw-bold text-danger">OUR FLEET SUPPORT</h2>
@@ -265,7 +265,7 @@ export default function Home() {
                 We only use high-quality components to restore and enchance your <br/>
                 equipment, ensuring optimal performance and reliability
               </p>
-              <a href="/product" className="btn btn-primary btn-lg ms-3 px-5 py-3 fs-5 fw-bold w-25 btn-aero" >
+              <a href="/product" className="btn btn-primary btn-lg ms-3 px-5 py-3 fs-5 fw-bold btn-aero" >
                 Read More
               </a>
             </div>
