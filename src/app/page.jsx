@@ -60,7 +60,7 @@ export default function Home() {
                 delivering reliable solutions for even the most specialized <br/>
                 components
               </p>
-              <a href="" className="btn btn-primary btn-lg ms-3 px-5 py-3 fs-5 fw-bold btn-aero" >Read More</a>
+              <a href="/about-us" className="btn btn-primary btn-lg ms-3 px-5 py-3 fs-5 fw-bold btn-aero" >Read More</a>
             </div>
           </div>
         </div>
@@ -82,7 +82,7 @@ export default function Home() {
               <div className="card h-100 border-0 shadow-sm">
                 <div className="card-body d-flex align-items-center justify-content-center p-4" style={{ height: "150px" }}>
                   <img
-                    src="https://placehold.co/200x100?text=Logo"
+                    src="/image/company1.png"
                     alt="Partner Logo 1"
                     className="img-fluid fleet-support-block"
                   />
@@ -93,7 +93,7 @@ export default function Home() {
               <div className="card h-100 border-0 shadow-sm">
                 <div className="card-body d-flex align-items-center justify-content-center p-4" style={{ height: "150px" }}>
                   <img
-                    src="https://placehold.co/200x100?text=Logo"
+                    src="/image/company2.png"
                     alt="Partner Logo 2"
                     className="img-fluid fleet-support-block"
                   />
@@ -104,7 +104,7 @@ export default function Home() {
               <div className="card h-100 border-0 shadow-sm">
                 <div className="card-body d-flex align-items-center justify-content-center p-4" style={{ height: "150px" }}>
                   <img
-                    src="https://placehold.co/200x100?text=Logo"
+                    src="/image/company3.png"
                     alt="Partner Logo 3"
                     className="img-fluid fleet-support-block"
                   />
@@ -115,7 +115,7 @@ export default function Home() {
               <div className="card h-100 border-0 shadow-sm">
                 <div className="card-body d-flex align-items-center justify-content-center p-4" style={{ height: "150px" }}>
                   <img
-                    src="https://placehold.co/200x100?text=Logo"
+                    src="/image/company4.png"
                     alt="Partner Logo 4"
                     className="img-fluid fleet-support-block"
                   />
@@ -126,7 +126,7 @@ export default function Home() {
               <div className="card h-100 border-0 shadow-sm">
                 <div className="card-body d-flex align-items-center justify-content-center p-4" style={{ height: "150px" }}>
                   <img
-                    src="https://placehold.co/200x100?text=Logo"
+                    src="/image/company5.png"
                     alt="Partner Logo 1"
                     className="img-fluid fleet-support-block"
                   />
@@ -137,7 +137,7 @@ export default function Home() {
               <div className="card h-100 border-0 shadow-sm">
                 <div className="card-body d-flex align-items-center justify-content-center p-4" style={{ height: "150px" }}>
                   <img
-                    src="https://placehold.co/200x100?text=Logo"
+                    src="/image/company6.png"
                     alt="Partner Logo 2"
                     className="img-fluid fleet-support-block"
                   />
@@ -148,7 +148,7 @@ export default function Home() {
               <div className="card h-100 border-0 shadow-sm">
                 <div className="card-body d-flex align-items-center justify-content-center p-4" style={{ height: "150px" }}>
                   <img
-                    src="https://placehold.co/200x100?text=Logo"
+                    src="/image/company7.png"
                     alt="Partner Logo 3"
                     className="img-fluid fleet-support-block"
                   />
@@ -159,7 +159,7 @@ export default function Home() {
               <div className="card h-100 border-0 shadow-sm">
                 <div className="card-body d-flex align-items-center justify-content-center p-4" style={{ height: "150px" }}>
                   <img
-                    src="https://placehold.co/200x100?text=Logo"
+                    src="/image/company8.png"
                     alt="Partner Logo 4"
                     className="img-fluid fleet-support-block"
                   />
@@ -170,7 +170,7 @@ export default function Home() {
               <div className="card h-100 border-0 shadow-sm">
                 <div className="card-body d-flex align-items-center justify-content-center p-4" style={{ height: "150px" }}>
                   <img
-                    src="https://placehold.co/200x100?text=Logo"
+                    src="/image/company9.png"
                     alt="Partner Logo 1"
                     className="img-fluid fleet-support-block"
                   />
@@ -181,7 +181,51 @@ export default function Home() {
               <div className="card h-100 border-0 shadow-sm">
                 <div className="card-body d-flex align-items-center justify-content-center p-4" style={{ height: "150px" }}>
                   <img
-                    src="https://placehold.co/200x100?text=Logo"
+                    src="/image/company10.png"
+                    alt="Partner Logo 2"
+                    className="img-fluid fleet-support-block"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="col-6 col-md-3" data-aos="fade-in">
+              <div className="card h-100 border-0 shadow-sm">
+                <div className="card-body d-flex align-items-center justify-content-center p-4" style={{ height: "150px" }}>
+                  <img
+                    src="/image/company11.png"
+                    alt="Partner Logo 2"
+                    className="img-fluid fleet-support-block"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="col-6 col-md-3" data-aos="fade-in">
+              <div className="card h-100 border-0 shadow-sm">
+                <div className="card-body d-flex align-items-center justify-content-center p-4" style={{ height: "150px" }}>
+                  <img
+                    src="/image/company12.png"
+                    alt="Partner Logo 2"
+                    className="img-fluid fleet-support-block"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="col-6 col-md-3" data-aos="fade-in">
+              <div className="card h-100 border-0 shadow-sm">
+                <div className="card-body d-flex align-items-center justify-content-center p-4" style={{ height: "150px" }}>
+                  <img
+                    src="/image/company13.png"
+                    alt="Partner Logo 2"
+                    className="img-fluid fleet-support-block"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="col-6 col-md-3" data-aos="fade-in">
+              <div className="card h-100 border-0 shadow-sm">
+                <div className="card-body d-flex align-items-center justify-content-center p-4" style={{ height: "150px" }}>
+                  <img
+                    src="/image/company14.png"
                     alt="Partner Logo 2"
                     className="img-fluid fleet-support-block"
                   />
@@ -226,7 +270,7 @@ export default function Home() {
                 We only use high-quality components to restore and enchance your <br/>
                 equipment, ensuring optimal performance and reliability
               </p>
-              <a href="" className="btn btn-primary btn-lg ms-3 px-5 py-3 fs-5 fw-bold w-25 btn-aero" >
+              <a href="/product" className="btn btn-primary btn-lg ms-3 px-5 py-3 fs-5 fw-bold w-25 btn-aero" >
                 Read More
               </a>
             </div>
@@ -298,7 +342,7 @@ export default function Home() {
             <p>
               Your satisfaction is our mission. We actively listen, provide clear answers, and craft customized solutions that cater to your unique requirements.
             </p>
-            <a href="#" className="btn btn-danger fw-bold px-4 py-2">
+            <a href="/contact" className="btn btn-danger fw-bold px-4 py-2">
               Get In Touch Now
             </a>
           </div>
