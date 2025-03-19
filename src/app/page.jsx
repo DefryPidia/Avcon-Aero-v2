@@ -66,12 +66,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div
-        className="position-relative overflow-hidden py-5 home-section"
-        style={{
-          background: "#f8f9fa"
-        }}
-      >
+      <div className="position-relative overflow-hidden py-5 home-section" style={{ height: "120vh", background: "#E8F0F9" }} >
         <div className="container">
           <div className="mb-5">
             <h2 className="fw-bold text-danger">OUR FLEET SUPPORT</h2>
@@ -80,7 +75,7 @@ export default function Home() {
           <div className="row g-4 justify-content-center">
             <div className="col-6 col-md-3" data-aos="fade-in">
               <div className="card h-100 border-0 shadow-sm">
-                <div className="card-body d-flex align-items-center justify-content-center p-4" style={{ height: "150px" }}>
+                <div className="card-body d-flex align-items-center justify-content-center p-4" style={{ height: "20vh" }}>
                   <img
                     src="/image/company1.png"
                     alt="Partner Logo 1"
@@ -91,7 +86,7 @@ export default function Home() {
             </div>
             <div className="col-6 col-md-3" data-aos="fade-in">
               <div className="card h-100 border-0 shadow-sm">
-                <div className="card-body d-flex align-items-center justify-content-center p-4" style={{ height: "150px" }}>
+                <div className="card-body d-flex align-items-center justify-content-center p-4" style={{ height: "20vh" }}>
                   <img
                     src="/image/company2.png"
                     alt="Partner Logo 2"
@@ -102,7 +97,7 @@ export default function Home() {
             </div>
             <div className="col-6 col-md-3" data-aos="fade-in">
               <div className="card h-100 border-0 shadow-sm">
-                <div className="card-body d-flex align-items-center justify-content-center p-4" style={{ height: "150px" }}>
+                <div className="card-body d-flex align-items-center justify-content-center p-4" style={{ height: "20vh" }}>
                   <img
                     src="/image/company3.png"
                     alt="Partner Logo 3"
@@ -113,7 +108,7 @@ export default function Home() {
             </div>
             <div className="col-6 col-md-3" data-aos="fade-in">
               <div className="card h-100 border-0 shadow-sm">
-                <div className="card-body d-flex align-items-center justify-content-center p-4" style={{ height: "150px" }}>
+                <div className="card-body d-flex align-items-center justify-content-center p-4" style={{ height: "20vh" }}>
                   <img
                     src="/image/company4.png"
                     alt="Partner Logo 4"
@@ -124,7 +119,7 @@ export default function Home() {
             </div>
             <div className="col-6 col-md-3" data-aos="fade-in">
               <div className="card h-100 border-0 shadow-sm">
-                <div className="card-body d-flex align-items-center justify-content-center p-4" style={{ height: "150px" }}>
+                <div className="card-body d-flex align-items-center justify-content-center p-4" style={{ height: "20vh" }}>
                   <img
                     src="/image/company5.png"
                     alt="Partner Logo 1"
@@ -135,7 +130,7 @@ export default function Home() {
             </div>
             <div className="col-6 col-md-3" data-aos="fade-in">
               <div className="card h-100 border-0 shadow-sm">
-                <div className="card-body d-flex align-items-center justify-content-center p-4" style={{ height: "150px" }}>
+                <div className="card-body d-flex align-items-center justify-content-center p-4" style={{ height: "20vh" }}>
                   <img
                     src="/image/company6.png"
                     alt="Partner Logo 2"
@@ -146,7 +141,7 @@ export default function Home() {
             </div>
             <div className="col-6 col-md-3" data-aos="fade-in">
               <div className="card h-100 border-0 shadow-sm">
-                <div className="card-body d-flex align-items-center justify-content-center p-4" style={{ height: "150px" }}>
+                <div className="card-body d-flex align-items-center justify-content-center p-4" style={{ height: "20vh" }}>
                   <img
                     src="/image/company7.png"
                     alt="Partner Logo 3"
@@ -157,7 +152,7 @@ export default function Home() {
             </div>
             <div className="col-6 col-md-3" data-aos="fade-in">
               <div className="card h-100 border-0 shadow-sm">
-                <div className="card-body d-flex align-items-center justify-content-center p-4" style={{ height: "150px" }}>
+                <div className="card-body d-flex align-items-center justify-content-center p-4" style={{ height: "20vh" }}>
                   <img
                     src="/image/company8.png"
                     alt="Partner Logo 4"
@@ -168,7 +163,7 @@ export default function Home() {
             </div>
             <div className="col-6 col-md-3" data-aos="fade-in">
               <div className="card h-100 border-0 shadow-sm">
-                <div className="card-body d-flex align-items-center justify-content-center p-4" style={{ height: "150px" }}>
+                <div className="card-body d-flex align-items-center justify-content-center p-4" style={{ height: "20vh" }}>
                   <img
                     src="/image/company9.png"
                     alt="Partner Logo 1"
@@ -179,7 +174,7 @@ export default function Home() {
             </div>
             <div className="col-6 col-md-3" data-aos="fade-in">
               <div className="card h-100 border-0 shadow-sm">
-                <div className="card-body d-flex align-items-center justify-content-center p-4" style={{ height: "150px" }}>
+                <div className="card-body d-flex align-items-center justify-content-center p-4" style={{ height: "20vh" }}>
                   <img
                     src="/image/company10.png"
                     alt="Partner Logo 2"
@@ -190,7 +185,7 @@ export default function Home() {
             </div>
             <div className="col-6 col-md-3" data-aos="fade-in">
               <div className="card h-100 border-0 shadow-sm">
-                <div className="card-body d-flex align-items-center justify-content-center p-4" style={{ height: "150px" }}>
+                <div className="card-body d-flex align-items-center justify-content-center p-4" style={{ height: "20vh" }}>
                   <img
                     src="/image/company11.png"
                     alt="Partner Logo 2"
@@ -201,7 +196,7 @@ export default function Home() {
             </div>
             <div className="col-6 col-md-3" data-aos="fade-in">
               <div className="card h-100 border-0 shadow-sm">
-                <div className="card-body d-flex align-items-center justify-content-center p-4" style={{ height: "150px" }}>
+                <div className="card-body d-flex align-items-center justify-content-center p-4" style={{ height: "20vh" }}>
                   <img
                     src="/image/company12.png"
                     alt="Partner Logo 2"
@@ -212,7 +207,7 @@ export default function Home() {
             </div>
             <div className="col-6 col-md-3" data-aos="fade-in">
               <div className="card h-100 border-0 shadow-sm">
-                <div className="card-body d-flex align-items-center justify-content-center p-4" style={{ height: "150px" }}>
+                <div className="card-body d-flex align-items-center justify-content-center p-4" style={{ height: "20vh" }}>
                   <img
                     src="/image/company13.png"
                     alt="Partner Logo 2"
@@ -223,7 +218,7 @@ export default function Home() {
             </div>
             <div className="col-6 col-md-3" data-aos="fade-in">
               <div className="card h-100 border-0 shadow-sm">
-                <div className="card-body d-flex align-items-center justify-content-center p-4" style={{ height: "150px" }}>
+                <div className="card-body d-flex align-items-center justify-content-center p-4" style={{ height: "20vh" }}>
                   <img
                     src="/image/company14.png"
                     alt="Partner Logo 2"
@@ -236,7 +231,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div style={{ position: "relative", width: "100%", height: "500px", overflow: "hidden", }} >
+      <div style={{ position: "relative", width: "100%", height: "500px", overflow: "hidden"}} >
         <div style={{ position: "absolute", width: "100%", height: "100%", top: 0, left: 0, }} >
           <video autoPlay loop muted playsInline className="curved-video">
             <source src="https://video.wixstatic.com/video/9b43b8_f183b01216004f618c8724974c137e9b/720p/mp4/file.mp4" type="video/mp4" />
@@ -252,13 +247,13 @@ export default function Home() {
       <div className="d-flex align-items-center home-section" >
         <div className="container-fluid h-100">
           <div className="row h-100 align-items-center">
-            <div className="col-lg-6 d-flex justify-content-center align-items-center pe-5">
+            <div className="col-lg-6 d-flex justify-content-center align-items-center pe-5 mb-5">
               <img
                 src="https://s3-alpha-sig.figma.com/img/0efe/c46b/bff93c4dd7ebf00814a2f8638d57e3ae?Expires=1743379200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=YyND~bedSFy-GbwgDPslWp6nzkFTWbCem9Y9t50V0UCLPo1ckOoR6jzItTzD5PML0GpOk4Tx~fv6cmEuAv19z1FOkzaGyUzvtZjP1K~64oL-Xw77OJ-ej5SjrvKwkxS36HmXIv1ojgTvyJt9iTH2aAm0Lt3H8aoPzdO1bsSE92ZPtAE3WzF5b8EWgvGZfCO9lciXyXkrre914VTaJ9s8Ne2mmlW-QRQsqFB6-6eHRMb5EYrgoddG4c2KEdSQKFVS2PC6uxWoCP6fhGPLqNkxp5VaSiMCAr~mrLGVIE2NPtJtPNbGAXiB3GDhnat09KOjdr4IN8HJJictvKUTouD8Yw__"
                 alt="Aviation Services"
               />
             </div>
-            <div className="col-lg-6 text-start ps-5">
+            <div className="col-lg-6 text-start ps-5 mb-5">
               <h3 className="fw-bold mb-4 text-danger ps-3">
                 SERVICES & PRODUCTS
               </h3>
@@ -358,7 +353,7 @@ export default function Home() {
 
       <div className="container my-5" data-aos="flip-up">
         <div className="row pt-5">
-          <div className="col-md-5 d-flex justify-content-center">
+          <div className="col-md-5 d-flex justify-content-center mb-5">
             <img
               src="https://s3-alpha-sig.figma.com/img/3a5f/ce75/1a177487fb3b239cb99cc18dad566118?Expires=1743379200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=U-R65cDhRPxsOfMpfkhI-0eBue60HXXcrCNI3GAHgjrH0UAr7l-sscoz7h5P-n2LJmZ3vZlbOyXv1TNBWaFIHQXlfru5dZXyX3cqH3Vl7MR5y7fbSZr6D1QgzfnuzsiWTFGqNm58OuMpMqH83UHjofajc9SgD623OFT0ZjOY10R9abxr-J3kbeSHnXGJeugosDSA4enuRTTpdRoFgqj~IpqzrxK616l563MHOwOJcIhPJZSo9vCMy3-NNLDTtk24P9yeGfsOCBl4gsEXvKDgPycssdkxN67ECC1Gr2wY8uS3icrI4J3fPjRmqhoaoBJs1o2gyrrJfVdWXnSb8qSAGw__"
               alt="Certificate"

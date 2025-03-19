@@ -88,8 +88,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .skill-box {
   width: 45rem;
-  height: 35vh;
+  height: 50vh;
   border-radius: 10px;
+  margin-top:10vh ;
 }
 
 .vision-card {
@@ -158,13 +159,21 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 768px) {
+  .vision-card {
+    flex-direction: column;
+  }
+
   .vision-card img {
     position: static;
     margin: 0 auto;
     display: block;
+    max-width: 100%;
+    height: auto;
   }
 
   .vision-card-content {
-    z-index: 2;
+    position: relative;
+    z-index: 3;
+    text-align: center;
   }
 }
