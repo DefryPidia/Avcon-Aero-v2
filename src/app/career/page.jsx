@@ -14,7 +14,7 @@ const Career = () => {
       }}
     >
       <div className="bg-white p-4 rounded-3 shadow text-center" data-aos="zoom-in-down">
-        <h2 className="fw-bold">ASG Currently no hiring for any job!</h2>
+        <h2 className="fw-bold">Avcon Aero Currently no hiring for any job!</h2>
         <Link href="/" className="btn btn-danger mt-3">Go to Home</Link>
       </div>
     </div>

@@ -1,3 +1,13 @@
+.aero-bg-blue {background-color: #0F4E9E}
+.aero-blue {color: #0F4E9E !important}
+.aero-btn-outline-blue {
+  border: 1px solid #0F4E9E;
+  border-radius: 10px;
+  color: #0F4E9E;
+  padding: 10px;
+  background-color: white;
+}
+
 .vid-title {
   position: relative;
   width: 100%;
