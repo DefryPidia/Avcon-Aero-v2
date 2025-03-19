@@ -4,11 +4,12 @@ const Footer = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-md-4">
-                        <h4>Aero Supplies Global</h4>
-                        <p>Experience the power of Aviation</p>
+                        <h4>Avcon Aero</h4>
+                        {/* <h4>Aero Supplies Global</h4> */}
+                        {/* <p>Experience the power of Aviation</p> */}
                     </div>
 
-                    <div className="col-md-2">
+                    {/* <div className="col-md-2">
                         <h6>Company</h6>
                         <ul className="list-unstyled">
                             <li><a href="#" className="text-white text-decoration-none">About us</a></li>
@@ -28,10 +29,10 @@ const Footer = () => {
                         <p className="text-danger mb-1">24/7 AOG Desk:</p>
                         <p className="mb-1">+971 65263464</p>
                         <p className="mb-0">sales@aeroasg.com</p>
-                    </div>
+                    </div> */}
                 </div>
 
-                <hr className="bg-light" />
+                {/* <hr className="bg-light" />
 
                 <div className="row align-items-center">
                     <div className="col-md-6">
@@ -45,7 +46,7 @@ const Footer = () => {
                             <a href="#" className="text-white text-decoration-none">Cookie Policy</a>
                         </p>
                     </div>
-                </div>
+                </div> */}
             </div>
         </footer>
     );
