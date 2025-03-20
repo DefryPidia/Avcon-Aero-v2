@@ -8,19 +8,19 @@ export default function Home() {
         {/* <video className="position-absolute top-0 start-0 h-100 w-100 object-fit-cover" autoPlay muted loop playsInline>
           <source src="https://video.wixstatic.com/video/9b43b8_f183b01216004f618c8724974c137e9b/720p/mp4/file.mp4" type="video/mp4" />
         </video> */}
-        <div className="container h-100 position-relative" style={{ zIndex: 1, right: "7%", bottom: "10%" }}>
-          <div className="row h-100 align-items-center ps-3">
+        <div className="container h-100 position-relative overflow-x-hidden" style={{ zIndex: 1 }}>
+          <div className="row h-100 align-items-center">
             <div className="col-lg-12 text-start">
-              <img src="/image/Avcon-Aero-2-1.png"/>
-              <h1 className="display-1 fw-bold mb-4 text-light position-relative">
+              <img src="/image/Avcon-Aero-2-1.png" data-aos="slide-right" data-aos-duration="1000"/>
+              <h1 className="display-1 fw-bold mb-4 text-light position-relative"  data-aos="slide-right" data-aos-duration="1500">
                 KEEP YOU<br/>
                 BUSTLING IN THE SKY
               </h1>
-              <p className="fs-5 fw-semibold text-light display-3 position-relative">
+              <p className="fs-5 text-light display-3 position-relative" data-aos="slide-right" data-aos-duration="2000">
               From High-Quality Aircraft Parts To Comprehensive Aviation Solutions <br/>
               We Keep Your Operations Running Smoothly. Contact Us Today!
               </p>
-              <a href="" className="btn btn-primary btn-lg px-5 py-3 fs-5 fw-bold btn-aero" >Request quote</a>
+              <a href="" className="btn btn-primary btn-lg px-5 py-3 fs-5 fw-bold btn-aero" data-aos="slide-right" data-aos-duration="2500" >Request Quote</a>
             </div>
           </div>
         </div>
@@ -40,13 +40,15 @@ export default function Home() {
               src="/image/Asset-Avcon-frame-2.svg"
               alt="Aviation Services"
               className="position-absolute h-100 w-100 object-fit-cover"
+              data-aos="zoom-in"
+              data-aos-duration="1000"
             />
           </div>
         </div>
 
         <div className="container h-100">
           <div className="row h-100 align-items-center ps-3">
-            <div className="col-lg-8 text-start">
+            <div className="col-lg-8 text-start" data-aos="slide-down" data-aos-duration="1000">
               <h1 className=" fw-bold mb-4 text-danger position-relative ps-3">
                 About Us
               </h1>
@@ -66,14 +68,14 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="position-relative overflow-hidden py-5 home-section fleet-support" >
-        <div className="container">
+      <div className="fleet-support" >
+        <div className="position-relative container overflow-hidden py-5">
           <div className="mb-5">
             <h2 className="fw-bold text-danger">OUR FLEET SUPPORT</h2>
           </div>
 
           <div className="row g-4 justify-content-center">
-            <div className="col-6 col-md-3" data-aos="fade-in">
+            <div className="col-6 col-md-3" data-aos="fade-in" data-aos-duration="2000">
               <div className="card h-100 border-0 shadow-sm">
                 <div className="card-body d-flex align-items-center justify-content-center p-4" style={{ height: "20vh" }}>
                   <img
@@ -84,7 +86,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="col-6 col-md-3" data-aos="fade-in">
+            <div className="col-6 col-md-3" data-aos="fade-in" data-aos-duration="2000">
               <div className="card h-100 border-0 shadow-sm">
                 <div className="card-body d-flex align-items-center justify-content-center p-4" style={{ height: "20vh" }}>
                   <img
@@ -95,7 +97,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="col-6 col-md-3" data-aos="fade-in">
+            <div className="col-6 col-md-3" data-aos="fade-in" data-aos-duration="2000">
               <div className="card h-100 border-0 shadow-sm">
                 <div className="card-body d-flex align-items-center justify-content-center p-4" style={{ height: "20vh" }}>
                   <img
@@ -106,7 +108,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="col-6 col-md-3" data-aos="fade-in">
+            <div className="col-6 col-md-3" data-aos="fade-in" data-aos-duration="2000">
               <div className="card h-100 border-0 shadow-sm">
                 <div className="card-body d-flex align-items-center justify-content-center p-4" style={{ height: "20vh" }}>
                   <img
@@ -117,7 +119,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="col-6 col-md-3" data-aos="fade-in">
+            <div className="col-6 col-md-3" data-aos="fade-in" data-aos-duration="2000">
               <div className="card h-100 border-0 shadow-sm">
                 <div className="card-body d-flex align-items-center justify-content-center p-4" style={{ height: "20vh" }}>
                   <img
@@ -128,7 +130,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="col-6 col-md-3" data-aos="fade-in">
+            <div className="col-6 col-md-3" data-aos="fade-in" data-aos-duration="2000">
               <div className="card h-100 border-0 shadow-sm">
                 <div className="card-body d-flex align-items-center justify-content-center p-4" style={{ height: "20vh" }}>
                   <img
@@ -139,7 +141,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="col-6 col-md-3" data-aos="fade-in">
+            <div className="col-6 col-md-3" data-aos="fade-in" data-aos-duration="2000">
               <div className="card h-100 border-0 shadow-sm">
                 <div className="card-body d-flex align-items-center justify-content-center p-4" style={{ height: "20vh" }}>
                   <img
@@ -150,7 +152,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="col-6 col-md-3" data-aos="fade-in">
+            <div className="col-6 col-md-3" data-aos="fade-in" data-aos-duration="2000">
               <div className="card h-100 border-0 shadow-sm">
                 <div className="card-body d-flex align-items-center justify-content-center p-4" style={{ height: "20vh" }}>
                   <img
@@ -161,7 +163,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="col-6 col-md-3" data-aos="fade-in">
+            <div className="col-6 col-md-3" data-aos="fade-in" data-aos-duration="2000">
               <div className="card h-100 border-0 shadow-sm">
                 <div className="card-body d-flex align-items-center justify-content-center p-4" style={{ height: "20vh" }}>
                   <img
@@ -172,7 +174,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="col-6 col-md-3" data-aos="fade-in">
+            <div className="col-6 col-md-3" data-aos="fade-in" data-aos-duration="2000">
               <div className="card h-100 border-0 shadow-sm">
                 <div className="card-body d-flex align-items-center justify-content-center p-4" style={{ height: "20vh" }}>
                   <img
@@ -183,7 +185,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="col-6 col-md-3" data-aos="fade-in">
+            <div className="col-6 col-md-3" data-aos="fade-in" data-aos-duration="2000">
               <div className="card h-100 border-0 shadow-sm">
                 <div className="card-body d-flex align-items-center justify-content-center p-4" style={{ height: "20vh" }}>
                   <img
@@ -194,7 +196,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="col-6 col-md-3" data-aos="fade-in">
+            <div className="col-6 col-md-3" data-aos="fade-in" data-aos-duration="2000">
               <div className="card h-100 border-0 shadow-sm">
                 <div className="card-body d-flex align-items-center justify-content-center p-4" style={{ height: "20vh" }}>
                   <img
@@ -205,7 +207,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="col-6 col-md-3" data-aos="fade-in">
+            <div className="col-6 col-md-3" data-aos="fade-in" data-aos-duration="2000">
               <div className="card h-100 border-0 shadow-sm">
                 <div className="card-body d-flex align-items-center justify-content-center p-4" style={{ height: "20vh" }}>
                   <img
@@ -216,7 +218,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="col-6 col-md-3" data-aos="fade-in">
+            <div className="col-6 col-md-3" data-aos="fade-in" data-aos-duration="2000">
               <div className="card h-100 border-0 shadow-sm">
                 <div className="card-body d-flex align-items-center justify-content-center p-4" style={{ height: "20vh" }}>
                   <img
@@ -231,11 +233,12 @@ export default function Home() {
         </div>
       </div>
 
-      <div style={{ position: "relative", width: "100%", height: "500px", overflow: "hidden"}} >
+      <div style={{ position: "relative", width: "100%", height: "60vh", overflow: "hidden", marginBottom: "-10rem"}} >
         <div style={{ position: "absolute", width: "100%", height: "100%", top: 0, left: 0, }} >
           <video autoPlay loop muted playsInline className="curved-video">
-            <source src="https://video.wixstatic.com/video/9b43b8_f183b01216004f618c8724974c137e9b/720p/mp4/file.mp4" type="video/mp4" />
+            <source src="/video/turbine-bg.mp4" type="video/mp4" />
             Your browser does not support the video tag.
+            <br/>
           </video>
         </div>
 
@@ -244,30 +247,35 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="d-flex align-items-center home-section" >
-        <div className="container-fluid h-100">
-          <div className="row h-100 align-items-center">
-            <div className="col-lg-6 d-flex justify-content-center align-items-center pe-5 mb-5">
-              <img
-                src="https://s3-alpha-sig.figma.com/img/0efe/c46b/bff93c4dd7ebf00814a2f8638d57e3ae?Expires=1743379200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=YyND~bedSFy-GbwgDPslWp6nzkFTWbCem9Y9t50V0UCLPo1ckOoR6jzItTzD5PML0GpOk4Tx~fv6cmEuAv19z1FOkzaGyUzvtZjP1K~64oL-Xw77OJ-ej5SjrvKwkxS36HmXIv1ojgTvyJt9iTH2aAm0Lt3H8aoPzdO1bsSE92ZPtAE3WzF5b8EWgvGZfCO9lciXyXkrre914VTaJ9s8Ne2mmlW-QRQsqFB6-6eHRMb5EYrgoddG4c2KEdSQKFVS2PC6uxWoCP6fhGPLqNkxp5VaSiMCAr~mrLGVIE2NPtJtPNbGAXiB3GDhnat09KOjdr4IN8HJJictvKUTouD8Yw__"
-                alt="Aviation Services"
-              />
-            </div>
-            <div className="col-lg-6 text-start ps-5 mb-5">
-              <h3 className="fw-bold mb-4 text-danger ps-3">
-                SERVICES & PRODUCTS
-              </h3>
-              <h1 className="display-4 fw-bold mb-4 text-primary ps-3">
-                QUALITY-DRIVEN REPAIR<br/>
-                AND UPGRADE SERVICES
-              </h1>
-              <p className="fs-5 fw-semibold ps-3">
-                We only use high-quality components to restore and enchance your <br/>
-                equipment, ensuring optimal performance and reliability
-              </p>
-              <a href="/product" className="btn btn-primary btn-lg ms-3 px-5 py-3 fs-5 fw-bold btn-aero" >
-                Read More
-              </a>
+      <div style={{
+              marginBottom: "-12rem",
+              background: "#F4F9FF"
+            }}>
+        <div className="container d-flex align-items-center home-section py-4 overflow-x-hidden position-relative">
+          <div className="container-fluid">
+            <div className="row align-items-center">
+              <div className="col-lg-6 d-flex justify-content-center align-items-center pe-5 mb-4" data-aos="slide-right">
+                <img
+                  src="https://s3-alpha-sig.figma.com/img/0efe/c46b/bff93c4dd7ebf00814a2f8638d57e3ae?Expires=1743379200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=YyND~bedSFy-GbwgDPslWp6nzkFTWbCem9Y9t50V0UCLPo1ckOoR6jzItTzD5PML0GpOk4Tx~fv6cmEuAv19z1FOkzaGyUzvtZjP1K~64oL-Xw77OJ-ej5SjrvKwkxS36HmXIv1ojgTvyJt9iTH2aAm0Lt3H8aoPzdO1bsSE92ZPtAE3WzF5b8EWgvGZfCO9lciXyXkrre914VTaJ9s8Ne2mmlW-QRQsqFB6-6eHRMb5EYrgoddG4c2KEdSQKFVS2PC6uxWoCP6fhGPLqNkxp5VaSiMCAr~mrLGVIE2NPtJtPNbGAXiB3GDhnat09KOjdr4IN8HJJictvKUTouD8Yw__"
+                  alt="Aviation Services"
+                />
+              </div>
+              <div className="col-lg-6 text-start ps-5 mb-4" data-aos="slide-left">
+                <h3 className="fw-bold mb-4 text-danger ps-3">
+                  SERVICES & PRODUCTS
+                </h3>
+                <h1 className="fw-bold mb-4 text-primary ps-3">
+                  QUALITY-DRIVEN REPAIR<br/>
+                  AND UPGRADE SERVICES
+                </h1>
+                <p className="fs-5 ps-3">
+                  We only use high-quality components to restore and enchance your
+                  equipment, ensuring optimal performance and reliability
+                </p>
+                <a href="/product" className="btn btn-primary btn-lg ms-3 px-5 py-3 fs-5 fw-bold btn-aero" >
+                  Read More
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -283,53 +291,53 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="container my-5">
+      <div className="container mb-5">
         <div className="row justify-content-center">
-          <div className="col-md-4 mb-4 d-flex justify-content-center" data-aos="slide-right">
-            <div className="card text-center p-5 shadow-sm skill-box">
-              <div className="mb-4 text-primary">
-                <i className="fas fa-fan fa-7x mt-2"></i>
+          <div className="col-md-4 mb-4 d-flex justify-content-center" data-aos="slide-right" data-aos-duration="500">
+            <div className="card text-center p-4 shadow-sm skill-box h-100">
+              <div className="mb-3 text-primary">
+                <i className="fas fa-fan fa-6x mt-5"></i>
               </div>
-              <h4 className="text-primary">Aviation Material <br/> Supply</h4>
+              <h5 className="text-primary">Aviation Material Supply</h5>
             </div>
           </div>
-          <div className="col-md-4 mb-4 d-flex justify-content-center" data-aos="slide-right">
-            <div className="card text-center p-5 shadow-sm skill-box">
-              <div className="mb-4 text-primary">
-                <i className="fas fa-wrench fa-7x mt-2"></i>
+          <div className="col-md-4 mb-4 d-flex justify-content-center" data-aos="slide-right"  data-aos-duration="1000">
+            <div className="card text-center p-4 shadow-sm skill-box h-100">
+              <div className="mb-3 text-primary">
+                <i className="fas fa-wrench fa-6x mt-5"></i>
               </div>
-              <h4 className="text-primary">Repair & Upgrade</h4>
+              <h5 className="text-primary">Repair & Upgrade</h5>
             </div>
           </div>
-          <div className="col-md-4 mb-4 d-flex justify-content-center" data-aos="slide-right">
-            <div className="card text-center p-5 shadow-sm skill-box">
-              <div className="mb-4 text-primary">
-                <i className="fas fa-plane fa-7x mt-2"></i>
+          <div className="col-md-4 mb-4 d-flex justify-content-center" data-aos="slide-right" data-aos-duration="1500">
+            <div className="card text-center p-4 shadow-sm skill-box h-100">
+              <div className="mb-3 text-primary">
+                <i className="fas fa-plane fa-6x mt-5"></i>
               </div>
-              <h4 className="text-primary">Ground Support <br/> Equipment</h4>
+              <h5 className="text-primary">Ground Support Equipment</h5>
             </div>
           </div>
 
-          <div className="col-md-4 mb-4 d-flex justify-content-center" data-aos="slide-right">
-            <div className="card text-center p-5 shadow-sm skill-box">
-              <div className="mb-4 text-primary">
-                <i className="fas fa-handshake fa-7x mt-2"></i>
+          <div className="col-md-4 mb-4 d-flex justify-content-center" data-aos="slide-right" data-aos-duration="2000">
+            <div className="card text-center p-4 shadow-sm skill-box h-100">
+              <div className="mb-3 text-primary">
+                <i className="fas fa-handshake fa-6x mt-5"></i>
               </div>
-              <h4 className="text-primary">Aviation <br/> Consultancy</h4>
+              <h5 className="text-primary">Aviation Consultancy</h5>
             </div>
           </div>
-          <div className="col-md-4 mb-4 d-flex justify-content-center" data-aos="slide-right">
-            <div className="card text-center p-5 shadow-sm skill-box">
-              <div className="mb-4 text-primary">
-                <i className="fas fa-clock fa-7x mt-2"></i>
+          <div className="col-md-4 mb-4 d-flex justify-content-center" data-aos="slide-right" data-aos-duration="2500">
+            <div className="card text-center p-4 shadow-sm skill-box h-100">
+              <div className="mb-3 text-primary">
+                <i className="fas fa-clock fa-6x mt-5"></i>
               </div>
-              <h4 className="text-primary">24x7 AOG <br/> Service</h4>
+              <h5 className="text-primary">24x7 AOG Service</h5>
             </div>
           </div>
         </div>
-      </div>
+      </div><br/><br/><br/>
 
-      <div className="container my-5">
+      <div className="container my-5 overflow-x-hidden">
         <div className="d-flex flex-column flex-md-row align-items-center p-5 text-white vision-card position-relative">
           <div className="vision-card-background"></div>
           <div className="vision-card-content">
@@ -342,7 +350,7 @@ export default function Home() {
             </a>
           </div>
 
-          <div className="position-absolute" style={{ zIndex: 2, right: 0 }}>
+          <div className="position-absolute" data-aos="zoom-in" data-aos-duration="2000" style={{ zIndex: 2, right: 0 }}>
             <img src="/image/asset-avcon-frame-6.svg" alt="" className="img-fluid"  />
           </div>
           <div className="position-absolute" style={{ zIndex: 1, right: 0, bottom: 0 }}>
@@ -351,7 +359,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="container my-5" data-aos="flip-up">
+      <div className="container my-5" data-aos="flip-up" data-aos-duration="1000">
         <div className="row pt-5">
           <div className="col-md-5 d-flex justify-content-center mb-5">
             <img

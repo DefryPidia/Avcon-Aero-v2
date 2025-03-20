@@ -89,9 +89,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .skill-box {
   width: 45rem;
-  height: 50vh;
+  height: 40vh;
   border-radius: 10px;
-  margin-top:10vh ;
+  margin-top: 10vh;
 }
 
 .vision-card {
@@ -138,9 +138,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .curved-video{
   width: 100%;
-  height: 100%;
+  height: 120%;
   object-fit: cover;
-  clip-path: ellipse(100% 80% at 50% 0%);
+  clip-path: ellipse(60% 80% at 50% 0%);
 }
 
 .curved-video-text{
