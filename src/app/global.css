@@ -35,7 +35,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .vid-video-mask {
   position: absolute;
-  top: 0;
+  top: 30%;
   left: 50%;
   transform: translateX(-50%);
   width: 100%;  /* Ubah dari 50% ke 100% */

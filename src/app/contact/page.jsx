@@ -5,7 +5,7 @@ const Events = () => {
         <div className="vid-title">
           <div className="vid-video-mask">
             <video autoPlay muted loop playsInline>
-              <source src="https://videos.pond5.com/colorful-aurora-borealisnorthern-lights-over-footage-102590823_main_xxl.mp4" type="video/mp4" />
+              <source src="video/plane-bg.mp4" type="video/mp4" />
             </video>
           </div>
           <div className="vid-text-box">
@@ -19,7 +19,7 @@ const Events = () => {
           <div className="row align-items-center py-5">
             <div className="col-lg-12">
               <h2 className="display-5 text-primary fw-bold mb-4">LET US HELP YOU</h2>
-              <p className="fw-bold fs-5">
+              <p className="fs-5">
               If you have any questions or concerns about Avcon Aero, please do not hesitate to contact us by filling out <br/>
               the form below. We are dedicated to providing exceptional customer service, and we will be more than <br/>
               happy to assist you and provide you with the information you need.
@@ -28,19 +28,17 @@ const Events = () => {
           </div>
         </div>
 
-        <div className="bg-secondary break-line my-5"/>
-
         <div className="container col-md-9">
           <div className="row align-items-center py-5">
             <div className="col-lg-6">
               <h2 className="display-5 fw-bold mb-4 text-primary">GIVE US YOUR <br/> VALUABLE FEEDBACK</h2>
-              <p className="fw-bold mb-4 fs-5">
+              <p className="mb-4 fs-5">
                 We value your feedback and would love to hear <br/>
                 about your experience with Avcon Aero. If you <br/>
                 have any comments or suggestions, please feel free <br/>
                 to send them to our feedback email address:
               </p>
-              <p className="fw-bold mb-5 fs-5">
+              <p className="mb-5 fs-5">
                 Thank you for choosing Aero Supplies Global. We <br/>
                 look forward to serving you and providing you with <br/>
                 the best products and services in the aviation <br/>
