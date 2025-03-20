@@ -155,7 +155,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .fleet-support{
-  height: 120vh;
+  height: 130vh;
   background: #E8F0F9;
 }
 
@@ -187,7 +187,3 @@ h1, h2, h3, h4, h5, h6 {
 .text-justify {
   text-align: justify;
 }
-
-  .fleet-support{
-    height: 180vh;
-  }

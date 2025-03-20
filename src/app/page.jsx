@@ -68,8 +68,8 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="fleet-support" >
-        <div className="position-relative container overflow-hidden py-5">
+      <div className="fleet-support overflow-hidden py-5" >
+        <div className="position-relative container">
           <div className="mb-5">
             <h2 className="fw-bold text-danger">OUR FLEET SUPPORT</h2>
           </div>
@@ -233,7 +233,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div style={{ position: "relative", width: "100%", height: "60vh", overflow: "hidden", marginBottom: "-10rem"}} >
+      <div style={{ position: "relative", width: "100%", height: "60vh", overflow: "hidden"}} >
         <div style={{ position: "absolute", width: "100%", height: "100%", top: 0, left: 0, }} >
           <video autoPlay loop muted playsInline className="curved-video">
             <source src="/video/turbine-bg.mp4" type="video/mp4" />
@@ -248,7 +248,6 @@ export default function Home() {
       </div>
 
       <div style={{
-              marginBottom: "-12rem",
               background: "#F4F9FF"
             }}>
         <div className="container d-flex align-items-center home-section py-4 overflow-x-hidden position-relative">
