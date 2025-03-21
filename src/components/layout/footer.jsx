@@ -27,16 +27,16 @@ const Footer = () => {
                     <div className="col-md-6 d-flex flex-column justify-content-end">
                         <div>
                             <div className="d-flex align-items-center">
-                                <Image src={EmailIcon} height={24} width={24} className="me-1" />
+                                <Image src={EmailIcon} alt="email" height={24} width={24} className="me-1" />
                                 contact@avconaero.com
                             </div>
                             <div className="d-flex align-items-center">
-                                <Image src={MobilePhoneIcon} height={24} width={24} className="me-1" />
+                                <Image src={MobilePhoneIcon} alt="phone" height={24} width={24} className="me-1" />
                                 +62 818-0740-0663
                             </div>
                             <div className="d-flex align-items-center">
                                 follow us on :
-                                <Image src={LinkedinIcon} height={80} width={106} className="ms-3" />
+                                <Image src={LinkedinIcon} alt="linkedin" height={80} width={106} className="ms-3" />
                             </div>
                         </div>
                     </div>
