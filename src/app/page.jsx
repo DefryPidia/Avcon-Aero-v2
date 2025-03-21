@@ -50,7 +50,7 @@ export default function Home() {
           <div className="row h-100 align-items-center ps-3">
             <div className="col-lg-8 text-start" data-aos="slide-down" data-aos-duration="1000">
               <h1 className=" fw-bold mb-4 text-danger position-relative ps-3">
-                About Us
+                ABOUT US
               </h1>
               <h1 className="display-4 fw-bold mb-4 text-primary position-relative ps-3">
                 LEADING THE SKY WITH <br/>
@@ -233,7 +233,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div style={{ position: "relative", width: "100%", height: "60vh", overflow: "hidden"}} >
+      <div style={{ position: "relative", width: "100%", height: "60vh", overflow: "hidden", background: "#F4F9FF" }} >
         <div style={{ position: "absolute", width: "100%", height: "100%", top: 0, left: 0, }} >
           <video autoPlay loop muted playsInline className="curved-video">
             <source src="/video/turbine-bg.mp4" type="video/mp4" />
@@ -242,7 +242,7 @@ export default function Home() {
           </video>
         </div>
 
-        <div className="curved-video-text" >
+        <div className="curved-video-text" style={{ border: "2px solid #E5E5E5", padding: "10px", borderRadius: "10px" }}>
           <h1>Your Partner in Aviation Materials Excellence</h1>
         </div>
       </div>

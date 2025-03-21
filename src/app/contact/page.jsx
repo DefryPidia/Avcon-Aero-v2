@@ -1,4 +1,21 @@
+"use client";
+
+import React, { useRef } from 'react';
+import ReCAPTCHA from 'react-google-recaptcha';
+
 const Events = () => {
+  const recaptchaRef = useRef();
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    const captchaResponse = recaptchaRef.current.getValue();
+    if (!captchaResponse) {
+      document.getElementById('captchaError').style.display = 'block';
+    } else {
+      document.getElementById('captchaError').style.display = 'none';
+    }
+  }
+
   return (
     <div>
       <div className="vid-page-title">
@@ -53,7 +70,7 @@ const Events = () => {
             </div>
             <div className="col-lg-1"></div>
             <div className="col-lg-5">
-              <form>
+              <form onSubmit={handleSubmit}>
                 <div className="row mb-4">
                   <div className="col-md-6">
                     <div className="form-group">
@@ -95,6 +112,14 @@ const Events = () => {
                   ></textarea>
                 </div>
 
+                <div className="form-group mb-4">
+                  <label className="text-muted mb-1">Captcha</label>
+                  <ReCAPTCHA
+                    ref={recaptchaRef}
+                    sitekey="6LcolfsqAAAAAIi9cFTjZZ1v6U9Rws6kDw_-rEBD"
+                  />
+                </div>
+                <div id="captchaError" className="text-danger" style={{ display: 'none' }}>Please complete the captcha.</div>
                 <button type="submit" className="btn btn-primary px-4 py-3 fw-semibold rounded-4 col-md-12">
                   Send Message
                 </button>
