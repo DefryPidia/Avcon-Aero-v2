@@ -242,7 +242,7 @@ export default function Home() {
           </video>
         </div>
 
-        <div className="curved-video-text" style={{ border: "2px solid #E5E5E5", padding: "10px", borderRadius: "10px" }}>
+        <div className="curved-video-text" style={{ textShadow: "2px 2px 0 #e5e5e5, -2px 2px 0 #e5e5e5, 2px -2px 0 #e5e5e5, -2px -2px 0 #e5e5e5" }}>
           <h1>Your Partner in Aviation Materials Excellence</h1>
         </div>
       </div>
@@ -358,7 +358,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="container my-5" data-aos="flip-up" data-aos-duration="1000">
+      <div className="container my-5 overflow-x-hidden" data-aos="zoom-in" data-aos-duration="1000">
         <div className="row pt-5">
           <div className="col-md-5 d-flex justify-content-center mb-5">
             <img

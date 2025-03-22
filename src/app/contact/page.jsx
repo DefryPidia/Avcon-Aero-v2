@@ -31,7 +31,7 @@ const Events = () => {
         </div>
       </div>
 
-      <div className="container-fluid px-0">
+      <div className="container-fluid px-0" style={{ backgroundImage: "url('/image/wave-background.svg')", backgroundSize: "cover", backgroundRepeat: "no-repeat" }}>
         <div className="container col-md-9">
           <div className="row align-items-center py-5">
             <div className="col-lg-12">
@@ -127,13 +127,7 @@ const Events = () => {
             </div>
           </div>
         </div>
-
-        <div className="divider-container position-relative my-5 company-break-line" >
-          <div className="position-absolute top-50 start-50 translate-middle d-flex align-items-center justify-content-center bg-white rounded-circle shadow" style={{ width: "12vh", height: "12vh" }}>
-            <img src="/image/avcon-logo.png" alt="divider icon" style={{ width: "55%", height: "55%" }} />
-          </div>
-        </div>
-        <br />
+        <br/>
       </div>
     </div>
   )
