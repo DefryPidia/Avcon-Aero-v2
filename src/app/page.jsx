@@ -242,7 +242,7 @@ export default function Home() {
           </video>
         </div>
 
-        <div className="curved-video-text" style={{ textShadow: "2px 2px 0 #e5e5e5, -2px 2px 0 #e5e5e5, 2px -2px 0 #e5e5e5, -2px -2px 0 #e5e5e5" }}>
+        <div className="curved-video-text" style={{ textShadow: "1px 1px 0 #1e1e1e, -1px 1px 0 #1e1e1e, 1px -1px 0 #1e1e1e, -1px -1px 0 #1e1e1e" }}>
           <h1>Your Partner in Aviation Materials Excellence</h1>
         </div>
       </div>
