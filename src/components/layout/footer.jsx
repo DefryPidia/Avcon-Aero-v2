@@ -28,7 +28,7 @@ const Footer = () => {
                         <div>
                             <div className="d-flex align-items-center">
                                 <Image src={EmailIcon} alt="email" height={24} width={24} className="me-1" />
-                                contact@avconaero.com
+                                sales@avconaero.com
                             </div>
                             <div className="d-flex align-items-center">
                                 <Image src={MobilePhoneIcon} alt="phone" height={24} width={24} className="me-1" />
