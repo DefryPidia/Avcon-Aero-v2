@@ -19,6 +19,8 @@ const AboutUs = () => {
         <div className="container-fluid px-0"
           style={{
             backgroundImage: "url('/image/wave-background.svg')",
+            backgroundSize: "100% auto",
+            backgroundRepeat: 'no-repeat',
           }}
         >
           <div className="container col-md-10" data-aos="fade-right">
