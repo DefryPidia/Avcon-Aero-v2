@@ -40,7 +40,7 @@ const Header = () => {
           <div>
             <div className="d-inline-flex align-items-center me-4">
               <Image src={EmailIcon} alt="email" height={20} width={20} className="me-1" />
-              contact@avconaero.com
+              sales@avconaero.com
             </div>
             <div className="d-inline-flex align-items-center">
               <Image src={PhoneIcon} alt="phone" height={20} width={20} className="me-1" />
@@ -70,7 +70,7 @@ const Header = () => {
               <Nav.Link as={Link} href="/career" className={`fw-medium ${pathName === "/career" ? 'aero-blue' : ''}`}>Career {pathName === "/career" && <NavMiniBar />}</Nav.Link>
               <Nav.Link as={Link} href="/contact" className={`fw-medium ${pathName === "/contact" ? 'aero-blue' : ''}`}>Contact {pathName === "/contact" && <NavMiniBar />}</Nav.Link>
             </Nav>
-            <a href="mailto:contact@avconaero.com">
+            <a href="mailto:sales@avconaero.com">
               <button className="aero-btn-outline-blue fw-medium ms-3">Request quote</button>
             </a>
           </Navbar.Collapse>

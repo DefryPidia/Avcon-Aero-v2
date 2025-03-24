@@ -64,7 +64,7 @@ const Events = () => {
 
               <div className="mt-5">
                 <h2 className="display-5 fw-bold mb-4 text-primary">CONTACT INFORMATION</h2>
-                <h3 className="text-primary mb-2"><i className="fas fa-envelope"></i> contact@avconaero.com</h3>
+                <h3 className="text-primary mb-2"><i className="fas fa-envelope"></i> sales@avconaero.com</h3>
                 <h3 className="text-primary"><i className="fas fa-mobile"></i> +62 818-0740-0663</h3>
               </div>
             </div>
@@ -127,7 +127,7 @@ const Events = () => {
             </div>
           </div>
         </div>
-        <br/>
+        <br />
       </div>
     </div>
   )
