@@ -187,3 +187,11 @@ h1, h2, h3, h4, h5, h6 {
 .text-justify {
   text-align: justify;
 }
+
+.nav-mini-bar {
+  position: relative;
+  top: 10px;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(to right, #1F5FAF 50%, #DE0031 50%);
+}
