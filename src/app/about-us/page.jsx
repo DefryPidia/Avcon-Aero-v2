@@ -25,9 +25,7 @@ const AboutUs = () => {
         >
           <div className="container col-md-10" data-aos="fade-right">
             <p className="text-justify">
-              PT Avcon Angkasa Semesta, a leading provider of aviation solutions. We take pride in delivering on time and services to our customers worldwide.<br />
-              At PT Avcon Angkasa Semesta, we are committed to excellence and customer satisfaction, We provide top-tier spare part sales, supported by our team of experts who are ready to offer technical assistance and guidance to our clients. <br />
-              With our experience and dedication to the industry, we are committed to being a trusted partner for our customers. We look forward to continuing to serve and meet your needs in the future.
+              Avcon Aero providing reliable solutions to meet your various aviation needs. With a commitment to quality and dependability, whether it is aircraft maintenance, fleet management, or spare parts supply, our team of professionals is ready to deliver the best solutions that adhere to industry standards. Customer trust is our top priority, ensuring that every service we offer prioritizes satisfaction and timeliness
             </p>
           </div>
 
@@ -41,7 +39,10 @@ const AboutUs = () => {
           <div className="container col-md-10 pb-5" data-aos="fade-right">
             <h2 className="fw-bold mb-1 aero-blue text-uppercase">Aerospace aftermarket specialists</h2>
             <p className="text-justify">
-              At the core of our commitment lies an unwavering dedication to addressing our clients' needs with utmost precision while upholding the pinnacle of safety and service standards. Collaborating closely with leading OEMs within the industry enables us to curate an unparalleled inventory of aircraft parts, ensuring precise compatibility for your specific aircraft model. Our comprehensive suite of offerings encompasses aircraft spare parts procurement, repair and overhaul services, bespoke aircraft chartering, alongside specialized aviation consultancy catering to both commercial and private aircraft operators.
+              Airparts aftermarket specialist
+              offering a wide range of high-quality components for aircraft maintenance, repair, and operations. As experts in this field, they supply refurbished, reconditioned, or new parts at more competitive prices compared to OEM (Original Equipment Manufacturer) parts. <br /><br />
+
+              With expertise in sourcing, distribution, and inventory management, we ensures the availability of reliable components that meet aviation industry standards. our services include the procurement of parts for both commercial and business aircraft, with a focus on cost efficiency without compromising safety and quality.
             </p>
           </div>
         </div>
