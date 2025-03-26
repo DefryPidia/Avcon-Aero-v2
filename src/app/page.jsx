@@ -16,10 +16,6 @@ export default function Home() {
                 KEEP YOU<br/>
                 BUSTLING IN THE SKY
               </h1>
-              <p className="fs-5 text-light display-3 position-relative" data-aos="slide-right" data-aos-duration="2000">
-              From High-Quality Aircraft Parts To Comprehensive Aviation Solutions <br/>
-              We Keep Your Operations Running Smoothly. Contact Us Today!
-              </p>
               <a href="" className="btn btn-primary btn-lg px-5 py-3 fs-5 fw-bold btn-aero" data-aos="slide-right" data-aos-duration="2500" >Request Quote</a>
             </div>
           </div>
@@ -50,18 +46,13 @@ export default function Home() {
           <div className="row h-100 align-items-center ps-3">
             <div className="col-lg-8 text-start" data-aos="slide-down" data-aos-duration="1000">
               <h1 className=" fw-bold mb-4 text-danger position-relative ps-3">
-                ABOUT US
+                KNOW US BETTER
               </h1>
               <h1 className="display-4 fw-bold mb-4 text-primary position-relative ps-3">
                 LEADING THE SKY WITH <br/>
                 GLOBAL AVIATION <br/>
                 SOLUTIONS
               </h1>
-              <p className="fs-5 fw-semibold position-relative ps-3">
-                With a worldwide network, we provide top-tier aircraft materials, <br/>
-                delivering reliable solutions for even the most specialized <br/>
-                components
-              </p>
               <a href="/about-us" className="btn btn-primary btn-lg ms-3 px-5 py-3 fs-5 fw-bold btn-aero" >Read More</a>
             </div>
           </div>
