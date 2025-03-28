@@ -28,7 +28,7 @@
                 width: 100%;
                 height: 100%;
               ">
-            <video autoplay muted loop playsinline>
+            <video autoplay muted loop playsinline style="width: 100%;">
               <source src="./public/video/plane-bg.mp4" type="video/mp4">
             </video>
           </div>
