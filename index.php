@@ -362,13 +362,6 @@
 
                     <div class="col-md-7 d-flex flex-column justify-content-start">
                         <h1 class="fw-bold text-primary">OUR QUALITY ASSURANCE</h1>
-                        <p>
-                            We are also ISO certified, ensuring that our expendables meet the highest international
-                            standards of quality and reliability. This certification underscores our commitment to
-                            excellence and customer satisfaction, guaranteeing that our products consistently meet
-                            or exceed industry regulations. With our ISO certification, you can trust in the
-                            quality and reliability of our products for your aviation needs.
-                        </p>
                     </div>
                 </div>
             </div>
