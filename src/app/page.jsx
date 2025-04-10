@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <>
       <div className="position-relative overflow-hidden home-section" 
-           style={{ backgroundImage: "url('https://s3-alpha-sig.figma.com/img/dcd6/7343/dd2752706f837f834c6ecfc18b766ca2?Expires=1743379200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=Wxvrkboh7YoZ9TcLPiyAQXbphdVL7MVt3BgMqehe6NlvOzWBAr2ScjPL4oWbbW~PHddDZIh6mZ~IQmCvA6F0xk7I-GiBB1xCSl9WEr4sx3Y~3EE50IH46t51V9PX8PP1JbXL7g2F8elx2rmTr3M7~WitkvllsysFeZAG8SgrYqdLFRcGM0nuELvXYnZRcpQrsORDVTWOXnpBR-IAgYchd6imT9XavkKtK1rYOVw2RStcih0JPc2S4K5NUvOHUqu95pgNK4eyk8vEWskugufPp2UW2748W~esxMVlMOQMz9OE4AhBfZD1TJf9BaOIdTzPG9Gy9odHbkkGnI8dS7Cr6Q__')", backgroundSize: "cover", backgroundPosition: "center" }}>
+        style={{ backgroundImage: "/image/main-page-background.webp", backgroundSize: "cover", backgroundPosition: "center" }}>
 
         <div className="position-absolute top-0 start-0 w-100 h-100" style={{ backgroundColor: "rgba(0, 0, 0, 0.5)", zIndex: 0 }}></div>
         {/* <video className="position-absolute top-0 start-0 h-100 w-100 object-fit-cover" autoPlay muted loop playsInline>
@@ -25,7 +25,7 @@ export default function Home() {
       <div
         className="position-relative overflow-hidden home-section"
         style={{
-          backgroundImage: "url('https://static.wixstatic.com/media/9b43b8_227c3a6474cc49d9be11d3280bef02db~mv2.jpg/v1/fill/w_1351,h_657,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/9b43b8_227c3a6474cc49d9be11d3280bef02db~mv2.jpg')",
+          backgroundImage: "/image/avcon-aero-background.webp",
           backgroundSize: "cover",
           backgroundPosition: "center"
         }}
@@ -246,7 +246,7 @@ export default function Home() {
             <div className="row align-items-center">
               <div className="col-lg-6 d-flex justify-content-center align-items-center pe-5 mb-4" data-aos="slide-right">
                 <img
-                  src="https://s3-alpha-sig.figma.com/img/0efe/c46b/bff93c4dd7ebf00814a2f8638d57e3ae?Expires=1743379200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=YyND~bedSFy-GbwgDPslWp6nzkFTWbCem9Y9t50V0UCLPo1ckOoR6jzItTzD5PML0GpOk4Tx~fv6cmEuAv19z1FOkzaGyUzvtZjP1K~64oL-Xw77OJ-ej5SjrvKwkxS36HmXIv1ojgTvyJt9iTH2aAm0Lt3H8aoPzdO1bsSE92ZPtAE3WzF5b8EWgvGZfCO9lciXyXkrre914VTaJ9s8Ne2mmlW-QRQsqFB6-6eHRMb5EYrgoddG4c2KEdSQKFVS2PC6uxWoCP6fhGPLqNkxp5VaSiMCAr~mrLGVIE2NPtJtPNbGAXiB3GDhnat09KOjdr4IN8HJJictvKUTouD8Yw__"
+                  src="/image/avcon-plane-image.png"
                   alt="Aviation Services"
                 />
               </div>
@@ -330,7 +330,7 @@ export default function Home() {
         <div className="row pt-5">
           <div className="col-md-12 d-flex justify-content-center mb-5">
             <img
-              src="https://s3-alpha-sig.figma.com/img/3a5f/ce75/1a177487fb3b239cb99cc18dad566118?Expires=1743379200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=U-R65cDhRPxsOfMpfkhI-0eBue60HXXcrCNI3GAHgjrH0UAr7l-sscoz7h5P-n2LJmZ3vZlbOyXv1TNBWaFIHQXlfru5dZXyX3cqH3Vl7MR5y7fbSZr6D1QgzfnuzsiWTFGqNm58OuMpMqH83UHjofajc9SgD623OFT0ZjOY10R9abxr-J3kbeSHnXGJeugosDSA4enuRTTpdRoFgqj~IpqzrxK616l563MHOwOJcIhPJZSo9vCMy3-NNLDTtk24P9yeGfsOCBl4gsEXvKDgPycssdkxN67ECC1Gr2wY8uS3icrI4J3fPjRmqhoaoBJs1o2gyrrJfVdWXnSb8qSAGw__"
+              src="/image/quality-insurance.webp"
               alt="Certificate"
               className="certificate-image"
             />
