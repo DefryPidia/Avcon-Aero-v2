@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <>
       <div className="position-relative overflow-hidden home-section" 
-        style={{ backgroundImage: "/image/main-page-background.webp", backgroundSize: "cover", backgroundPosition: "center" }}>
+        style={{ backgroundImage: `url("/image/main-page-background.webp")`, backgroundSize: "cover", backgroundPosition: "center" }}>
 
         <div className="position-absolute top-0 start-0 w-100 h-100" style={{ backgroundColor: "rgba(0, 0, 0, 0.5)", zIndex: 0 }}></div>
         {/* <video className="position-absolute top-0 start-0 h-100 w-100 object-fit-cover" autoPlay muted loop playsInline>
@@ -25,7 +25,7 @@ export default function Home() {
       <div
         className="position-relative overflow-hidden home-section"
         style={{
-          backgroundImage: "/image/avcon-aero-background.webp",
+          backgroundImage: `url("/image/avcon-aero-background.webp")`,
           backgroundSize: "cover",
           backgroundPosition: "center"
         }}
