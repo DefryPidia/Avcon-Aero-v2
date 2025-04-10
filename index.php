@@ -241,9 +241,9 @@
                                 <h3 class="fw-bold mb-4 text-danger ps-3">
                                     SERVICES & PRODUCTS
                                 </h3>
-                                <h2 class="fw-bold mb-4 text-primary ps-3">
-                                    EXPLORE THE RANGE OF SERVICES WE OFFER TO DISCOVER HOW WE CAN ASSIST YOU, OR LET US KNOW YOUR SPECIFIC NEEDS SO WE CAN PROVIDE THE BEST POSSIBLE SUPPORT
-                                </h2>
+                                <h5 class="fw-bold mb-4 text-primary ps-3">
+                                    Explore the range of services we offer to discover how we can assist you, or let us know your specific needs so we can provide the best possible support
+                                </h5>
                                 <a href="product.html"
                                     class="btn btn-primary btn-lg ms-3 px-5 py-3 fs-5 fw-bold btn-aero">
                                     Read More
