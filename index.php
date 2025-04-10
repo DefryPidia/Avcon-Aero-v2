@@ -241,13 +241,8 @@
                                 <h3 class="fw-bold mb-4 text-danger ps-3">
                                     SERVICES & PRODUCTS
                                 </h3>
-                                <h1 class="fw-bold mb-4 text-primary ps-3">
-                                    QUALITY-DRIVEN REPAIR<br />
-                                    AND UPGRADE SERVICES
-                                </h1>
                                 <p class="fs-5 ps-3">
-                                    We only use high-quality components to restore and enhance your
-                                    equipment, ensuring optimal performance and reliability.
+                                    Explore the range of services we offer to discover how we can assist you, or let us know your specific needs so we can provide the best possible support
                                 </p>
                                 <a href="product.html"
                                     class="btn btn-primary btn-lg ms-3 px-5 py-3 fs-5 fw-bold btn-aero">
@@ -269,10 +264,8 @@
                 </div>
             </div>
 
-
             <div class="container mb-5">
                 <div class="row justify-content-center">
-
                     <div class="col-md-4 mb-4 d-flex justify-content-center" data-aos="slide-right"
                         data-aos-duration="500">
                         <div class="card text-center p-4 shadow-sm skill-box h-100">
@@ -287,9 +280,9 @@
                         data-aos-duration="1000">
                         <div class="card text-center p-4 shadow-sm skill-box h-100">
                             <div class="mb-3 text-primary">
-                                <i class="fas fa-wrench fa-6x mt-5"></i>
+                                <i class="fas fa-handshake fa-6x mt-5"></i>
                             </div>
-                            <h5 class="text-primary">Repair & Upgrade</h5>
+                            <h5 class="text-primary">Aviation Consultant</h5>
                         </div>
                     </div>
 
@@ -297,32 +290,11 @@
                         data-aos-duration="1500">
                         <div class="card text-center p-4 shadow-sm skill-box h-100">
                             <div class="mb-3 text-primary">
-                                <i class="fas fa-plane fa-6x mt-5"></i>
+                                <i class="fas fa-credit-card fa-6x mt-5"></i>
                             </div>
-                            <h5 class="text-primary">Ground Support Equipment</h5>
+                            <h5 class="text-primary">Visa</h5>
                         </div>
                     </div>
-
-                    <div class="col-md-4 mb-4 d-flex justify-content-center" data-aos="slide-right"
-                        data-aos-duration="2000">
-                        <div class="card text-center p-4 shadow-sm skill-box h-100">
-                            <div class="mb-3 text-primary">
-                                <i class="fas fa-handshake fa-6x mt-5"></i>
-                            </div>
-                            <h5 class="text-primary">Aviation Consultancy</h5>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 mb-4 d-flex justify-content-center" data-aos="slide-right"
-                        data-aos-duration="2500">
-                        <div class="card text-center p-4 shadow-sm skill-box h-100">
-                            <div class="mb-3 text-primary">
-                                <i class="fas fa-clock fa-6x mt-5"></i>
-                            </div>
-                            <h5 class="text-primary">24x7 AOG Service</h5>
-                        </div>
-                    </div>
-
                 </div>
             </div>
 
@@ -333,7 +305,6 @@
                     class="d-flex flex-column flex-md-row align-items-center p-5 text-white vision-card position-relative">
                     <div class="vision-card-background"></div>
                     <div class="vision-card-content">
-                        <h2 class="fw-bold">Driven By Quality, <br> Safety And Care</h2>
                         <p>
                             Your satisfaction is our mission. We actively listen, provide clear answers, and craft
                             customized solutions that cater to your unique requirements.
@@ -361,7 +332,6 @@
                     </div>
 
                     <div class="col-md-7 d-flex flex-column justify-content-start">
-                        <h1 class="fw-bold text-primary">OUR QUALITY ASSURANCE</h1>
                     </div>
                 </div>
             </div>
