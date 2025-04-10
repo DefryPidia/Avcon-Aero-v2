@@ -254,13 +254,8 @@ export default function Home() {
                 <h3 className="fw-bold mb-4 text-danger ps-3">
                   SERVICES & PRODUCTS
                 </h3>
-                <h1 className="fw-bold mb-4 text-primary ps-3">
-                  QUALITY-DRIVEN REPAIR<br/>
-                  AND UPGRADE SERVICES
-                </h1>
                 <p className="fs-5 ps-3">
-                  We only use high-quality components to restore and enchance your
-                  equipment, ensuring optimal performance and reliability
+                  Explore the range of services we offer to discover how we can assist you, or let us know your specific needs so we can provide the best possible support
                 </p>
                 <a href="/product" className="btn btn-primary btn-lg ms-3 px-5 py-3 fs-5 fw-bold btn-aero" >
                   Read More
@@ -294,34 +289,17 @@ export default function Home() {
           <div className="col-md-4 mb-4 d-flex justify-content-center" data-aos="slide-right"  data-aos-duration="1000">
             <div className="card text-center p-4 shadow-sm skill-box h-100">
               <div className="mb-3 text-primary">
-                <i className="fas fa-wrench fa-6x mt-5"></i>
+                <i className="fas fa-handshake fa-6x mt-5"></i>
               </div>
-              <h5 className="text-primary">Repair & Upgrade</h5>
+              <h5 className="text-primary">Aviation Consultant</h5>
             </div>
           </div>
           <div className="col-md-4 mb-4 d-flex justify-content-center" data-aos="slide-right" data-aos-duration="1500">
             <div className="card text-center p-4 shadow-sm skill-box h-100">
               <div className="mb-3 text-primary">
-                <i className="fas fa-plane fa-6x mt-5"></i>
+                <i className="fas fa-credit-card fa-6x mt-5"></i>
               </div>
-              <h5 className="text-primary">Ground Support Equipment</h5>
-            </div>
-          </div>
-
-          <div className="col-md-4 mb-4 d-flex justify-content-center" data-aos="slide-right" data-aos-duration="2000">
-            <div className="card text-center p-4 shadow-sm skill-box h-100">
-              <div className="mb-3 text-primary">
-                <i className="fas fa-handshake fa-6x mt-5"></i>
-              </div>
-              <h5 className="text-primary">Aviation Consultancy</h5>
-            </div>
-          </div>
-          <div className="col-md-4 mb-4 d-flex justify-content-center" data-aos="slide-right" data-aos-duration="2500">
-            <div className="card text-center p-4 shadow-sm skill-box h-100">
-              <div className="mb-3 text-primary">
-                <i className="fas fa-clock fa-6x mt-5"></i>
-              </div>
-              <h5 className="text-primary">24x7 AOG Service</h5>
+              <h5 className="text-primary">Visa</h5>
             </div>
           </div>
         </div>
@@ -360,7 +338,6 @@ export default function Home() {
           </div>
 
           <div className="col-md-7 d-flex flex-column justify-content-start">
-            <h1 className="fw-bold text-primary">OUR QUALITY ASSURANCE</h1>
           </div>
         </div>
       </div>
