@@ -309,7 +309,6 @@ export default function Home() {
         <div className="d-flex flex-column flex-md-row align-items-center p-5 text-white vision-card position-relative">
           <div className="vision-card-background"></div>
           <div className="vision-card-content">
-            <h2 className="fw-bold">Driven By Quality, <br/> Safety And Care</h2>
             <p>
               Your satisfaction is our mission. We actively listen, provide clear answers, and craft customized solutions that cater to your unique requirements.
             </p>
