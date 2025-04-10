@@ -254,9 +254,9 @@ export default function Home() {
                 <h3 className="fw-bold mb-4 text-danger ps-3">
                   SERVICES & PRODUCTS
                 </h3>
-                <p className="fs-5 ps-3">
-                  Explore the range of services we offer to discover how we can assist you, or let us know your specific needs so we can provide the best possible support
-                </p>
+                <h2 className="fw-bold mb-4 text-primary ps-3">
+                  EXPLORE THE RANGE OF SERVICES WE OFFER TO DISCOVER HOW WE CAN ASSIST YOU, OR LET US KNOW YOUR SPECIFIC NEEDS SO WE CAN PROVIDE THE BEST POSSIBLE SUPPORT
+                </h2>
                 <a href="/product" className="btn btn-primary btn-lg ms-3 px-5 py-3 fs-5 fw-bold btn-aero" >
                   Read More
                 </a>
@@ -312,7 +312,7 @@ export default function Home() {
             <p>
               Your satisfaction is our mission. We actively listen, provide clear answers, and craft customized solutions that cater to your unique requirements.
             </p>
-            <a href="/contact" className="btn btn-danger fw-bold px-4 py-2">
+            <a href="/contact" className="btn btn-danger fw-bold px-4 py-2 mt-3">
               Get In Touch Now
             </a>
           </div>
@@ -328,15 +328,12 @@ export default function Home() {
 
       <div className="container my-5 overflow-x-hidden" data-aos="zoom-in" data-aos-duration="1000">
         <div className="row pt-5">
-          <div className="col-md-5 d-flex justify-content-center mb-5">
+          <div className="col-md-12 d-flex justify-content-center mb-5">
             <img
               src="https://s3-alpha-sig.figma.com/img/3a5f/ce75/1a177487fb3b239cb99cc18dad566118?Expires=1743379200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=U-R65cDhRPxsOfMpfkhI-0eBue60HXXcrCNI3GAHgjrH0UAr7l-sscoz7h5P-n2LJmZ3vZlbOyXv1TNBWaFIHQXlfru5dZXyX3cqH3Vl7MR5y7fbSZr6D1QgzfnuzsiWTFGqNm58OuMpMqH83UHjofajc9SgD623OFT0ZjOY10R9abxr-J3kbeSHnXGJeugosDSA4enuRTTpdRoFgqj~IpqzrxK616l563MHOwOJcIhPJZSo9vCMy3-NNLDTtk24P9yeGfsOCBl4gsEXvKDgPycssdkxN67ECC1Gr2wY8uS3icrI4J3fPjRmqhoaoBJs1o2gyrrJfVdWXnSb8qSAGw__"
               alt="Certificate"
               className="certificate-image"
             />
-          </div>
-
-          <div className="col-md-7 d-flex flex-column justify-content-start">
           </div>
         </div>
       </div>
