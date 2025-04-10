@@ -241,9 +241,9 @@
                                 <h3 class="fw-bold mb-4 text-danger ps-3">
                                     SERVICES & PRODUCTS
                                 </h3>
-                                <p class="fs-5 ps-3">
-                                    Explore the range of services we offer to discover how we can assist you, or let us know your specific needs so we can provide the best possible support
-                                </p>
+                                <h2 class="fw-bold mb-4 text-primary ps-3">
+                                    EXPLORE THE RANGE OF SERVICES WE OFFER TO DISCOVER HOW WE CAN ASSIST YOU, OR LET US KNOW YOUR SPECIFIC NEEDS SO WE CAN PROVIDE THE BEST POSSIBLE SUPPORT
+                                </h2>
                                 <a href="product.html"
                                     class="btn btn-primary btn-lg ms-3 px-5 py-3 fs-5 fw-bold btn-aero">
                                     Read More
@@ -309,7 +309,7 @@
                             Your satisfaction is our mission. We actively listen, provide clear answers, and craft
                             customized solutions that cater to your unique requirements.
                         </p>
-                        <a href="contact.html" class="btn btn-danger fw-bold px-4 py-2">
+                        <a href="contact.html" class="btn btn-danger fw-bold px-4 py-2 mt-3">
                             Get In Touch Now
                         </a>
                     </div>
@@ -326,12 +326,9 @@
 
             <div class="container my-5 overflow-x-hidden" data-aos="zoom-in" data-aos-duration="1000">
                 <div class="row pt-5">
-                    <div class="col-md-5 d-flex justify-content-center mb-5">
+                    <div class="col-md-12 d-flex justify-content-center mb-5">
                         <img src="./public/image/quality-insurance.webp"
                             alt="Certificate" class="certificate-image" />
-                    </div>
-
-                    <div class="col-md-7 d-flex flex-column justify-content-start">
                     </div>
                 </div>
             </div>
