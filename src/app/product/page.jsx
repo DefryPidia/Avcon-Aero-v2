@@ -38,7 +38,7 @@ const AboutUs = () => {
         <div className="container-fluid" style={{ backgroundColor: '#f2faff' }}>
           <div className="container col-md-10 mt-5 pb-2" >
             <div data-aos="fade-right">
-              <h2 className="fw-bold mb-1 aero-blue text-uppercase">Aviation Consulancy</h2>
+              <h2 className="fw-bold mb-1 aero-blue text-uppercase">Aviation Consultancy</h2>
               <p className="text-justify">
                 We are an Indonesia-based aircraft spares supply company with a mission to provide the best aviation consultancy service to our clients. Our services are designed to help clients navigate the complex and ever-changing landscape of the aviation industry, with a focus on efficiency, cost-effectiveness, and compliance. We understand how important it is to have your aircraft in tip-top shape at all times, and we're here to help you get there. With our consultancy services, you can rest assured that your aircraft is being well looked after by experts who know what they're doing—and who will be able to give you advice on how to maintain your aircraft's performance and keep it safe.
               </p>
