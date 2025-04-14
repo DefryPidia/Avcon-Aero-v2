@@ -66,7 +66,7 @@ const Product = () => {
 
         <div className="container-fluid" style={{ backgroundColor: '#f2faff' }}>
           <div className="container col-md-10 mt-5 pb-4" data-aos="fade-right">
-            <h2 className="fw-bold mb-1 aero-blue text-uppercase">Visa</h2>
+            <h2 className="fw-bold mb-1 aero-blue text-uppercase">Visa Assistance Service Provider</h2>
             <p className="text-justify">
               Offering professional support and administrative assistance to individuals, groups, or organizations in the process of obtaining visas for international travel, work, study, or residency purposes.
             </p>
