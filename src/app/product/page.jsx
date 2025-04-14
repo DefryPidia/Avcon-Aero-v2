@@ -1,4 +1,6 @@
-const AboutUs = () => {
+import "./style.css";
+
+const Product = () => {
   return (
     <div>
       <div className="vid-page-title my-5">
@@ -44,11 +46,38 @@ const AboutUs = () => {
               </p>
             </div>
 
-            <div data-aos="fade-right" className="my-5 row">
-              <h4 className="fw-bold aero-blue text-uppercase col-md-5">Aircraft purchase and lease Major parts purchase and lease Parts repair and overhaul</h4>
-              <div className="col-md-2"></div>
-              <h4 className="fw-bold aero-blue text-uppercase col-md-5">Warehousing and consolidation Parts shipping and delivery</h4>
+            <div data-aos="fade-right" className="row" style={{ marginTop: "40px" }}>
+              <div className="col-md-6">
+                <ul>
+                  <li><h4 className="fw-bold aero-blue text-uppercase">Aircraft purchase and lease</h4></li>
+                  <li><h4 className="fw-bold aero-blue text-uppercase">Major parts purchase and lease</h4></li>
+                  <li><h4 className="fw-bold aero-blue text-uppercase">Parts repair and overhaul</h4></li>
+                </ul>
+              </div>
+              <div className="col-md-6">
+                <ul>
+                  <li><h4 className="fw-bold aero-blue text-uppercase">Warehousing and consolidation</h4></li>
+                  <li><h4 className="fw-bold aero-blue text-uppercase">Parts shipping and delivery</h4></li>
+                </ul>
+              </div>
             </div>
+          </div>
+        </div>
+
+        <div className="container-fluid" style={{ backgroundColor: '#f2faff' }}>
+          <div className="container col-md-10 mt-5 pb-4" data-aos="fade-right">
+            <h2 className="fw-bold mb-1 aero-blue text-uppercase">Visa</h2>
+            <p className="text-justify">
+              Offering professional support and administrative assistance to individuals, groups, or organizations in the process of obtaining visas for international travel, work, study, or residency purposes.
+            </p>
+            <ul>
+              <li>
+                <div className="d-flex align-items-center">
+                  <div className="fw-bold aero-blue text-uppercase" style={{ fontSize: "25px" }}>Nepali</div>
+                  <img src="/image/country-nepal.svg" alt="nepal" height={27} width={27} className="ms-2" />
+                </div>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
@@ -56,4 +85,4 @@ const AboutUs = () => {
   );
 };
 
-export default AboutUs;
+export default Product;
